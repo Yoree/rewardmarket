@@ -1,0 +1,4 @@
+<view>
+  <image src="{{startImg}}"></image>
+	<button  wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo='bindGetUserInfo'>点击进入</button>
+</view>

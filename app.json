@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/start/index",
+    "pages/index/index",
+    "pages/login/index"
+  
+
+  ],
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color":"#000",
+    "selectedColor":"#825820",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "集市",
+      "iconPath": "./assert/images/icon_market_gray.png",
+      "selectedIconPath": "./assert/images/icon_market_light.png"
+    },
+    {
+      "pagePath": "pages/login/index",
+      "text": "悬赏令",
+      "iconPath": "./assert/images/icon_market_gray.png",
+      "selectedIconPath": "./assert/images/icon_market_light.png"
+    }]
+  }
+}
